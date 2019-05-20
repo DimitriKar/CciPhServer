@@ -11,11 +11,11 @@ function redisConnect() {
 
         client.on("connect", function () {
             console.log("Succes connect");
-            resolve()
+            resolve(client)
         })
     })
 }
 
 module.exports = {
-    redisConnect
+    clientPromise: redisConnect()
 }
