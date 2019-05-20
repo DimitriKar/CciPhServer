@@ -14,8 +14,10 @@ yarn add dotenv
 ## Install nodejs Redis
 ```
 yarn add redis --save
-* Launch server : redis-server
-* Check if Redis is working : redis-cli ping
+```
+#### Launch server :
+```
+redis-server
 ```
 ### Redis options : 
 
